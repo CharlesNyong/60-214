@@ -82,7 +82,7 @@ public class CountIdentifiers {
 					}
 				}
 			}
-			 getNumberOfIdentifiers(identifierMap);
+			  getNumberOfIdentifiers(identifierMap);
 			//System.out.println("Number of identifiers: " + numberOfIdentifiers);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
