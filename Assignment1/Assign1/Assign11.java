@@ -36,7 +36,7 @@ public class Assign11 {
 		else if(text.charAt(0) == '/' || (text.charAt(0) == '/' && text.charAt(1) == '/')||(text.charAt(0) == '/' && text.charAt(1) == '*') ){
 			return false;
 		}
-		return true;
+		 return true;
 	}
 	
 	public static boolean isKeyword(String input){
