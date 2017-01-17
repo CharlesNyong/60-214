@@ -35,7 +35,7 @@ public class Assign12 {
 					}	
 				}
 			}
-			Assign11.writeAnswerToFile(identifierCounter);
+			 Assign11.writeAnswerToFile(identifierCounter);
 			//System.out.println("Number of Identifiers: " + identifierCounter);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
