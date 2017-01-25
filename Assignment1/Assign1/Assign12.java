@@ -17,7 +17,7 @@ public class Assign12 {
 	 * */
 	public static void processFile(BufferedReader Reader){
 		HashMap validIdentifiers = new HashMap();
-		String regex ="\"(.*?)\"|[a-z]+([0-9]+)?([a-z]+)?|([A-Z]+[a-z]+)([0-9]+)?([a-zA-Z]+)?|([A-Z]+[0-9]+)([a-zA-z]+)?";
+		String regex ="\"(.*?)\"|([a-z]+)([0-9]+)?([a-z]+)?|([A-Z]+[a-z]+)([0-9]+)?([a-zA-Z]+)?|([A-Z]+[0-9]+)([a-zA-z]+)"";
 		Pattern regexPattern = Pattern.compile(regex);
 		String line = null;
 		Matcher regexMatcher = null;
